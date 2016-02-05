@@ -38,9 +38,8 @@ app.get('/hello', (req, res) => {
     'Content-type' : 'text/html'
   });
 
-
-
 app.use(express.static(path.join(__dirname, 'public')));
+
 
   msg.split('').forEach((char, i) => {
 
@@ -106,6 +105,7 @@ app.get('/secret', (req, res) => {
     .send('Access Denied!!!')
 });
 
+app.use(express.static(path.join(__dirname, 'public')));
 
 
 app.listen(PORT, () => {
