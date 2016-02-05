@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    title= title
+    script(src="/lib/jquery/dist/jquery.min.js")
+    script(src="/js/main.js")
+  body
+    h1#mouse Sup Bruhhh
+    p#log moveover me
+    //- below is from res.render object, ln 11, see comment
+    h3 Welcome to #{title}
+    p The date is #{date.toLocaleDateString('en-us')}
+
+//- use jquery (fade or something), font-awesome (icons), add images, incorporate cal app (still need to add)

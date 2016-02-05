@@ -1,0 +1,32 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "serve": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ldougher06/node_webserver.git"
+  },
+  "author": "Logan Dougher <logan.dougher@gmail.com> (https://logandougher.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ldougher06/node_webserver/issues"
+  },
+  "homepage": "https://github.com/ldougher06/node_webserver#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "chalk": "^1.1.1",
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
+    "lodash": "^4.2.1",
+    "request": "^2.69.0"
+  },
+  "devDependencies": {
+    "bower": "^1.7.7"
+  }
+}
